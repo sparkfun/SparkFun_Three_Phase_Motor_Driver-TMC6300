@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -36,7 +36,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -215,6 +215,13 @@
 <dimension x1="5.842" y1="8.509" x2="5.842" y2="0" x3="-17.78" y3="4.2545" textsize="1.778" layer="49" unit="inch"/>
 <dimension x1="5.842" y1="8.509" x2="0" y2="8.509" x3="2.921" y3="-19.05" textsize="1.778" layer="49" unit="inch"/>
 <dimension x1="1.27" y1="1.27" x2="0" y2="1.27" x3="0.635" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<polygon width="0.1524" layer="41">
+<vertex x="8.89" y="10.033"/>
+<vertex x="9.271" y="10.033"/>
+<vertex x="9.271" y="10.668"/>
+<vertex x="8.763" y="10.668"/>
+<vertex x="8.763" y="10.033"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -4285,8 +4292,10 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="2.9608" y1="8.3058" x2="3.6466" y2="7.62" width="0.508" layer="1"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J2" pad="8"/>
-<via x="12.7" y="17.78" extent="1-16" drill="0.35"/>
+<via x="12.7" y="17.78" extent="1-16" drill="0.3048"/>
 <contactref element="R1" pad="1"/>
+<via x="12.446" y="15.113" extent="1-16" drill="0.3048"/>
+<via x="12.192" y="6.731" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$1">
 <contactref element="V" pad="1"/>
@@ -4335,7 +4344,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="9.779" y1="14.224" x2="10.033" y2="14.478" width="0.1778" layer="1"/>
 <wire x1="9.779" y1="11.303" x2="9.779" y2="13.335" width="0.1778" layer="1"/>
 <wire x1="9.779" y1="13.335" x2="9.779" y2="14.224" width="0.1778" layer="1"/>
-<via x="11.049" y="14.478" extent="1-16" drill="0.35"/>
+<via x="11.049" y="14.478" extent="1-16" drill="0.3048"/>
 <wire x1="10.033" y1="14.478" x2="11.049" y2="14.478" width="0.1778" layer="1"/>
 <wire x1="10.58" y1="13.335" x2="9.779" y2="13.335" width="0.1778" layer="1"/>
 <wire x1="11.44048125" y1="12.43925" x2="11.44048125" y2="12.192" width="0.1778" layer="16"/>
@@ -4398,7 +4407,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="J1" pad="6"/>
 <wire x1="12.192" y1="7.747" x2="12.192" y2="9.144" width="0.1778" layer="16"/>
 <wire x1="13.0655" y1="10.0175" x2="13.0655" y2="10.03560625" width="0.1778" layer="16"/>
-<via x="13.0655" y="10.03560625" extent="1-16" drill="0.35"/>
+<via x="13.0655" y="10.03560625" extent="1-16" drill="0.3048"/>
 <wire x1="12.192" y1="9.144" x2="13.0655" y2="10.0175" width="0.1778" layer="16"/>
 <wire x1="13.0655" y1="10.03560625" x2="12.573" y2="10.52810625" width="0.1778" layer="1"/>
 <wire x1="13.0967" y1="12.47053125" x2="13.0967" y2="12.9697" width="0.1778" layer="1"/>
@@ -4523,8 +4532,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="7.239" y1="18.80445" x2="7.62" y2="18.42345" width="0.1778" layer="16"/>
 <wire x1="7.62" y1="17.02645" x2="8.497" y2="16.14945" width="0.1778" layer="16"/>
 <via x="6.858" y="18.80445" extent="1-16" drill="0.3048"/>
-<wire x1="6.858" y1="18.80445" x2="6.34575" y2="19.3167" width="0.1778" layer="1"/>
-<wire x1="5.715" y1="19.3167" x2="6.34575" y2="19.3167" width="0.1778" layer="1"/>
+<wire x1="6.858" y1="18.80445" x2="6.858" y2="19.18545" width="0.1778" layer="1"/>
+<wire x1="6.858" y1="19.18545" x2="6.72675" y2="19.3167" width="0.1778" layer="1"/>
+<wire x1="5.715" y1="19.3167" x2="6.72675" y2="19.3167" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="S" pad="1"/>

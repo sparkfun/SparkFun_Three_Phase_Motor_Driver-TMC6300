@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="46" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -206,10 +206,7 @@
 <wire x1="15.24" y1="0" x2="15.24" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="15.24" y1="20.32" x2="0" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.2032" layer="20"/>
-<dimension x1="13.97" y1="1.27" x2="0" y2="1.27" x3="6.985" y3="-7.62" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="0" x2="15.24" y2="0" x3="7.62" y3="-12.7" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="1.27" y1="1.27" x2="1.27" y2="0" x3="-6.35" y3="0.635" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="20.32" x2="0" y2="0" x3="-11.43" y3="10.16" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="5.842" y1="8.509" x2="5.842" y2="11.811" x3="20.32" y3="10.16" textsize="1.778" layer="49" unit="inch"/>
 <dimension x1="5.842" y1="11.811" x2="9.398" y2="11.811" x3="7.62" y3="22.86" textsize="1.778" layer="49" unit="inch"/>
 <dimension x1="5.842" y1="8.509" x2="5.842" y2="0" x3="-17.78" y3="4.2545" textsize="1.778" layer="49" unit="inch"/>
@@ -222,6 +219,15 @@
 <vertex x="8.763" y="10.668"/>
 <vertex x="8.763" y="10.033"/>
 </polygon>
+<text x="2.54" y="15.367" size="1.016" layer="1" font="vector" ratio="15">1</text>
+<text x="4.572" y="14.224" size="1.016" layer="2" font="vector" ratio="15">2</text>
+<text x="4.572" y="13.97" size="1.016" layer="16" font="vector" ratio="15">4</text>
+<text x="4.572" y="14.224" size="1.016" layer="15" font="vector" ratio="15">3</text>
+<dimension x1="7.62" y1="10.16" x2="7.62" y2="0" x3="-11.43" y3="5.08" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="20.32" x2="0" y2="0" x3="-15.24" y3="10.16" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="7.62" y1="10.16" x2="0" y2="10.16" x3="3.81" y3="-10.16" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="13.97" y1="1.27" x2="0" y2="1.27" x3="6.985" y3="-15.24" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="15.24" y2="0" x3="7.62" y3="-20.32" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

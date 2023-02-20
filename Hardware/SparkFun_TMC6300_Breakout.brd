@@ -4286,6 +4286,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="9.02" y1="10.56" x2="8.236" y2="10.56" width="0.1778" layer="1"/>
 <wire x1="8.236" y1="10.56" x2="8.128" y2="10.668" width="0.1778" layer="1"/>
 <via x="2.54" y="17.78" extent="1-16" drill="0.3048"/>
+<via x="6.223" y="14.859" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$1">
 <contactref element="V" pad="1"/>
@@ -4652,7 +4653,6 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="19,1,4804560ca238bc30"/>
 <approved hash="19,1,f8431ec80d5fb3a1"/>
 <approved hash="19,1,758a786a84d88338"/>
-<approved hash="19,1,cb0b1c0921a6a061"/>
 <approved hash="4,1,feffbae92e3d6b23"/>
 <approved hash="4,1,ff5b82bb138f6fdf"/>
 <approved hash="4,1,a347524093ff6f38"/>
@@ -4673,11 +4673,12 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="4,16,ae4f6f7caedb6238"/>
 <approved hash="4,16,a2c37a2eb6ad53b8"/>
 <approved hash="4,16,a347524093ff6f38"/>
-<approved hash="19,1,2bbdde88bea76d52"/>
 <approved hash="6,1,a9e9f9436c4294b1"/>
 <approved hash="6,1,7102d2968f69907c"/>
 <approved hash="6,1,37f165ace6e61cc2"/>
 <approved hash="6,1,adc1b14258e21a28"/>
+<approved hash="19,1,a902e5b676d26ca3"/>
+<approved hash="19,1,35b17832add3c690"/>
 </errors>
 </board>
 </drawing>

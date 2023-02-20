@@ -26,7 +26,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="46" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -4287,6 +4287,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="8.236" y1="10.56" x2="8.128" y2="10.668" width="0.1778" layer="1"/>
 <via x="2.54" y="17.78" extent="1-16" drill="0.3048"/>
 <via x="6.223" y="14.859" extent="1-16" drill="0.3048"/>
+<wire x1="9.02" y1="10.56" x2="9.633" y2="10.56" width="0.1778" layer="1"/>
+<wire x1="9.02" y1="10.16" x2="9.652" y2="10.16" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="V" pad="1"/>
@@ -4678,6 +4680,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <approved hash="6,1,37f165ace6e61cc2"/>
 <approved hash="6,1,adc1b14258e21a28"/>
 <approved hash="19,1,a902e5b676d26ca3"/>
+<approved hash="6,1,34954d0ca440315c"/>
+<approved hash="6,1,998557938379aad9"/>
 <approved hash="19,1,35b17832add3c690"/>
 </errors>
 </board>

@@ -23289,6 +23289,9 @@ standby LED</text>
 <text x="160.02" y="104.14" size="1.778" layer="97" font="vector">Cut Jumper D
 to disable 
 diagnostic LED</text>
+<text x="223.52" y="71.12" size="1.778" layer="97" font="vector">Cut Jumper V
+to disable 
+power LED</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

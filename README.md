@@ -32,8 +32,8 @@ Documentation
 
 *Need to download or print our hookup guide?*
 
-* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_Three_Phase_Motor_Driver-TMC6300/hookup_guide/single_page)
-* [Download PDF](http://docs.sparkfun.com/SparkFun_Three_Phase_Motor_Driver-TMC6300/assets/board_files/hookup_guide.pdf) *(Beta - Mostly works, but some attributes may be broken.)*
+* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_Three_Phase_Motor_Driver-TMC6300/single_page)
+* [Download PDF](http://docs.sparkfun.com/SparkFun_Three_Phase_Motor_Driver-TMC6300/board_files/hookup_guide.pdf) *(Beta - Mostly works, but some attributes may be broken.)*
 
 Product Variants
 ----------------

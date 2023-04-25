@@ -22,6 +22,7 @@ icon: material/book-open-page-variant
 	<article class="video_desc">
 	<iframe src="https://www.youtube.com/embed/I0sJSTlUF_E" title="Product Showcase: SparkFun Brushless Motor Driver - 3 Phase (TMC6300)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
+	![QR code to play video](../img/qr_code/product_video.png){ .qr }
 	</center>
 
 

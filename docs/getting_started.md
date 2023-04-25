@@ -18,6 +18,12 @@ icon: material/book-open-page-variant
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_01.jpg)
 	</figure></a>
 
+	<center>
+	<article class="video_desc">
+	<iframe src="https://www.youtube.com/embed/I0sJSTlUF_E" title="Product Showcase: SparkFun Brushless Motor Driver - 3 Phase (TMC6300)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</article>
+	</center>
+
 
 -	The TMC6300 from [ADI + Trinamic](https://www.trinamic.com/) is a powerful and easy to use three phase motor driver that was designed to control our [Brushless Gimbal Motor](https://www.sparkfun.com/products/20441). However, it can be used to control any 3-phase [BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor "brushless DC") or [PMSM](https://en.wikipedia.org/wiki/Synchronous_motor#Permanent-magnet "permanent magnet synchronous motor") motor with up to 2A (1.4A~RMS~) of total drive current. Separate high-side and low-side control of the three half-bridges allows for incredible control of each phase of the [motor commutation](https://fab.cba.mit.edu/classes/865.21/topics/power_electronics/commutation/#bldc-commutation). The driver also provides temperature and short circuit protections; and a diagnostic output to indicate system faults. With a 1.8V regulated power output and an operating voltage down to 2V, the TMC6300 is suitable for low-power microcontroller and battery powered designs (min. 2 AA/NiMh cells, or 1-2 Li-Ion cells).
 

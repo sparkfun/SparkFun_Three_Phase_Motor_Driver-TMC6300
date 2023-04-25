@@ -353,6 +353,7 @@
   .video iframe {
     width: 90vh;
     height: calc( ( (100vw - 12.1rem) - 2rem) * 0.9 * 0.5625);
+    max-height: 458.66px;
   }
   /* Grid: 35/65 */
   .video_desc iframe {
@@ -371,10 +372,12 @@
   .video iframe {
     width: 90vh;
     height: calc( ( (100vw - 12.1rem * 2) - 2rem) * 0.9 * 0.5625);
+    max-height: 458.66px;
   }
   /* Grid: 35/65 */
   .video_desc iframe {
     height: calc( ( (100vw - 12.1rem * 2 - 2rem) * 0.35 - 1.6rem) * 0.5625);
+    max-height: 458.66px;
   }
 }
 

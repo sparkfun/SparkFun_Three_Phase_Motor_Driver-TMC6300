@@ -296,7 +296,7 @@ Users can also monitor the `DIAG` pin, so their microcontroller knows when to re
 
 
 ### Current Sense Pin
-
+The current sense pin is the foot point of the `U` and `V` half-bridges, with a 0.12&ohm; resistor attached. Users can measure the voltage across the `SENSE` and `GND` pins to determine the current flowing to the motor; however, it is recommended that an op-amp be attached to amplify the signal.
 
 <figure markdown>
 [![Current Sense Pin](../img/hookup_guide/pin-sen.jpg){ width="200" }](../img/hookup_guide/pin-sen.jpg "Click to enlarge")
@@ -304,7 +304,6 @@ Users can also monitor the `DIAG` pin, so their microcontroller knows when to re
 The `SEN` pin on the TMC6300 motor driver.
 </figcaption>
 </figure>
-
 
 
 ## LEDs

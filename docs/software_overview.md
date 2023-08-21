@@ -41,37 +41,37 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 
 <div class="grid cards" markdown align="center">
 
--   <a href="https://learn.sparkfun.com/tutorials/50">**What is an Arduino?**
-
-	---
-
-	<figure markdown>
+-   <a href="https://learn.sparkfun.com/tutorials/50"><figure markdown>
 	![What is an Arduino?](https://cdn.sparkfun.com/c/264-148/assets/3/b/6/e/b/512e66bece395f492b000000.jpg)
-	</figure></a>
-
--   <a href="https://learn.sparkfun.com/tutorials/61">**Installing the Arduino IDE**
+	</figure>
 
 	---
-	
-	<figure markdown>
+
+	**What is an Arduino?**</a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/61"><figure markdown>
 	![Installing the Arduino IDE](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/1/arduinoThumb.jpg)
-	</figure></a>
-
--   <a href="https://learn.sparkfun.com/tutorials/15">**Installing an Arduino Library**
+	</figure>
 
 	---
 	
-	<figure markdown>
+	**Installing the Arduino IDE**</a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/15"><figure markdown>
 	![Installing an Arduino Library](https://cdn.sparkfun.com/c/264-148/assets/b/e/4/b/2/50f04b99ce395fd95e000001.jpg)
-	</figure></a>
-
--   <a href="https://learn.sparkfun.com/tutorials/1265">**Installing Board Definitions in the Arduino IDE**
+	</figure>
 
 	---
 	
-	<figure markdown>
+	**Installing an Arduino Library**</a>
+
+-   <a href="https://learn.sparkfun.com/tutorials/1265"><figure markdown>
 	![Installing Board Definitions in the Arduino IDE](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/2/6/5/sparkfun_boards.PNG)
-	</figure></a>
+	</figure>
+
+	---
+	
+	**Installing Board Definitions in the Arduino IDE**</a>
 </div>
 
 

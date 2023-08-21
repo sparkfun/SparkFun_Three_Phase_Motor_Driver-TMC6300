@@ -235,7 +235,7 @@ extra_javascript:
 # Configures webpage navigation
 nav:
   - Getting Started:
-    - Introduction: getting_started.md
+    - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly:
       - Hardware Components: component_assembly.md

@@ -2,10 +2,7 @@
 icon: material/book-open-page-variant
 ---
 
-# Getting Started
-
-
-## Introduction
+# Introduction
 <div class="grid cards desc" markdown>
 
 -   <a href="https://www.sparkfun.com/products/21867">
@@ -15,7 +12,7 @@ icon: material/book-open-page-variant
 	---
 	
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_01.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_1.jpg)
 	</figure></a>
 
 	<center>
@@ -97,7 +94,7 @@ To get started, users will need a few items. Now some users may already have a f
 		<td>
 			<a href="https://www.sparkfun.com/products/21867">
 				<center>
-				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_01.jpg" alt="Product Thumbnail">
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_1.jpg" alt="Product Thumbnail">
 				</center>
 				<h3 class="title">SparkFun Brushless Motor Driver - 3 Phase (TMC6300)</h3>
 			</a>
@@ -209,7 +206,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_01.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_1.jpg)
 	</figure></a>
 
 -   <a href="https://www.sparkfun.com/products/12002">

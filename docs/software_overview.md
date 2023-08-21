@@ -121,73 +121,6 @@ The [Simple Field Oriented Control Library](https://github.com/simplefoc/Arduino
 <figcaption markdown>SimpleFOClibrary in the library manager of the Arduino IDE.</figcaption>
 </figure>
 
-This library utilizes a motor control scheme called field oriented control (FOC), which can utilize a feedback control loop to drive a motor with a higher power efficiency and precision characteristics, like evenly distributed torque control.
-
-
-!!! info
-	For more details about the library, check out the [online documentation](https://docs.simplefoc.com/).
-
-
-
-??? info "Supported Hardware"
-    For a detailed and up-to-date list of the hardware supported by this library, check out the [library's documentation](https://docs.simplefoc.com/supported_hardware). The following are excerpts taken from the library's documentation page:
-
-    === "Microcontrollers"
-
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/mcus/index.md:14:15"
-
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/mcus/index.md:16:49"
-
-		!!! info
-			For more details, please refer to the [SimpleFOC Arduino library docmentation](https://docs.simplefoc.com/microcontrollers).
-    
-    === "Motor Drivers"
-
-		--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/drivers/index.md:19:24"
-
-		??? warning "Current Limitations"
-            --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/drivers/index.md:29"
-
-		--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/drivers/BLDC_drivers.md:12:23"
-
-		| Examples | Description | Price |
-		| ---- | ---- | --- |
-		| [<img src="https://simplefoc.com/assets/img/v1.jpg" style="height:100px">](https://simplefoc.com/simplefoc_shield_product)| Arduino<br> <span class="simple">Simple<span class="foc">FOC</span>Shield</span> v1 | 15€ |
-		| [<img src="https://simplefoc.com/assets/img/v2.jpg" style="height:100px">](https://simplefoc.com/simplefoc_shield_product)| Arduino<br> <span class="simple">Simple<span class="foc">FOC</span>Shield</span> v2 | ~20€ |
-
-		!!! info
-			For more details, please refer to the [SimpleFOC Arduino library docmentation](https://docs.simplefoc.com/bldc_drivers).
-
-    === "Motors"
-
-        Arduino SimpleFOClibrary supports two types of BLDC motors:
-
-        - [BLDC motors](#bldc-motors) 
-            - 3 phase (3 wire):
-            - Gimbal and High-performance BLDC motors
-        - Stepper motors
-            - 2 phase (4 wire)
-
-        ??? warning "Current Limitations"
-            --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/index.md:27"
-
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:12:14"
-
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:15:16"
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:17:22"
-
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:23:28"
-
-        --8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:42:43"
-
-		!!! info
-			For more details, please refer to the [SimpleFOC Arduino library docmentation](https://docs.simplefoc.com/bldc_motors).
-
-<!-- ??? note "Hardware Specific Considerations"
-	https://docs.simplefoc.com/bldcdriver6pwm#arduino-uno-support
-
-	--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:41:110" -->
-
 ??? tip "Arduino IDE *(v1.x.x)*"
 	In the Arduino IDE v1.x.x, the library manager will have the following appearance for the SimpleFOC library:
 
@@ -196,4 +129,156 @@ This library utilizes a motor control scheme called field oriented control (FOC)
 	<figcaption markdown>SimpleFOClibrary in the library manager of the Arduino IDE (v1.x.x).</figcaption>
 	</figure>
 
+This library utilizes a motor control scheme called field oriented control (FOC), which can utilize a feedback control loop to drive a motor with a higher power efficiency and precision characteristics, like evenly distributed torque control.
 
+!!! info
+	For more details about the library, check out the [online documentation](https://docs.simplefoc.com/).
+
+!!! note "Supported Hardware"
+	For a detailed and up-to-date list of the hardware supported by this library, check out the [library's documentation](https://docs.simplefoc.com/supported_hardware). The following are excerpts taken from the library's documentation page:
+
+	=== "Microcontrollers"
+
+		--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/mcus/index.md:14:15"
+
+		--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/mcus/index.md:35:49"
+
+		!!! info
+			For more details, please refer to the [SimpleFOC Arduino library documentation](https://docs.simplefoc.com/microcontrollers).
+	
+	=== "Motor Drivers"
+
+		--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/drivers/index.md:19:23"
+
+		??? warning "Current Limitations"
+			--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/drivers/index.md:30"
+
+		!!! tip
+			While the TMC6300 isn't directly listed as part of the supported hardware for the SimpleFOC Arduino library, we have verified that is compatible with the library.
+
+		!!! info
+			For more details, please refer to the [SimpleFOC Arduino library documentation](https://docs.simplefoc.com/bldc_drivers).
+
+	=== "Motors"
+
+		Arduino SimpleFOClibrary supports two types of BLDC motors:
+
+		- BLDC motors
+			- 3 phase (3 wire):
+
+				??? info "Gimbal Motors"
+					--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:20:22"
+
+					--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:23:28"
+
+				??? info "High-performance Motors"		
+					--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/BLDC_motors.md:43:43"
+		- Stepper motors
+			- 2 phase (4 wire)
+	
+		??? warning "Current Limitations"
+			--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/hardware/motors/index.md:28"
+
+		!!! info
+			For more details, please refer to the [SimpleFOC Arduino library documentation](https://docs.simplefoc.com/bldc_motors).
+
+
+### 6PWM Motor Driver
+
+Users will need to utilize the [`BLDCDriver6PWM` class](https://docs.simplefoc.com/bldcdriver6pwm) to provide the six PWM signals required for the TMC6300 motor driver.
+
+`BLDCDriver6PWM`
+
+:   This class provides an abstraction layer for most of the common BLDC drivers, which require six PWM signals. This method offers more control than a three PWM motor drivers, since each of the 6 half-bridges MOSFETs can be controlled independently.
+
+	--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:28:36"
+
+	!!! note "Microcontroller Considerations"
+		=== "Arduino Uno"
+			--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:42:50"
+
+		=== "STM32"
+			--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:54:54"
+
+			--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:55:56"
+
+			<div class="grid cards" markdown>
+
+			-   **Hardware PWM**
+
+				---
+
+				--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:59:69"
+
+			-   **Software PWM**
+
+				---
+
+				--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:72:93"
+
+			</div>
+
+		=== "ESP32"
+			--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:96:96"
+
+	!!! info
+		For more details about the `BLDCDriver6PWM` class, check out the [online documentation](https://docs.simplefoc.com/bldcdriver6pwm).
+
+<!-- 
+The PWM carrier frequency used to control the motor driver can greatly affect its efficiency.
+
+* Low frequency - poor current shape, which increased heating and harmonics loss in the motor
+* High frequency - increased transistor switching loss -->
+
+### BLDC Motor
+
+All BLDC motors are handled with the [`BLDCMotor` class](https://docs.simplefoc.com/bldcmotor).
+
+`BLDCMotor`
+
+:   This class implements the BLDC FOC algorithm, motion control loops, and monitoring.
+
+	--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/motors/bldc_motors.md:23:30"
+
+	!!! note "Motor Considerations"
+		While, the datasheet for our [gimbal motor](https://www.sparkfun.com/products/20441), indicates that there are **8 pole pairs**, we have found that the motor operates more smoothly if the `BLDCMotor` class is instantiated with **7 pole pairs** instead.
+
+		```cp
+		BLDCMotor motor = BLDCMotor(7);
+		```
+
+	!!! info
+		For more details about the `BLDCMotor` class, check out the [online documentation](https://docs.simplefoc.com/bldcmotor).
+
+
+### Motion Control
+
+Unless a feedback loop is incorporated when driving the motor *(i.e. with [position sensors](https://docs.simplefoc.com/sensors) or [current sensing](https://docs.simplefoc.com/current_sense))*, users should implement the SimpleFOC library using the [open-loop control](https://docs.simplefoc.com/open_loop_motion_control).
+
+Open-Loop Motion Control Types:
+
+* [Velocity](https://docs.simplefoc.com/velocity_openloop)
+* [Position](https://docs.simplefoc.com/angle_openloop)
+
+
+<!-- #### Sensorless FOC
+Current measurement
+
+#### Closed-Loop
+With position sensors
+
+Control Types (available in library):
+* Torque
+* Velocity
+* Angle
+
+#### Low-side current sensing
+
+While the SimpleFOC Arduino library offers the option to incorporate low-side current sensors into the feedback loop, 
+
+
+--8<-- "https://raw.githubusercontent.com/simplefoc/simplefoc.github.io/master/docs/simplefoc_library/code/drivers/bldc_driver/bldc_driver_6pwm.md:101:110"
+
+
+
+utilizing the [open loop example](https://github.com/simplefoc/Arduino-FOC/blob/master/examples/motion_control/open_loop_motor_control/open_loop_velocity_example/open_loop_velocity_example.ino) combined with the [6 channel PWM method](https://docs.simplefoc.com/bldcdriver6pwm) and *every* PWM pin on the Arduino Uno gets this board working. Note the [pairs of PWM pins](https://docs.simplefoc.com/bldcdriver6pwm) that must be used. -->

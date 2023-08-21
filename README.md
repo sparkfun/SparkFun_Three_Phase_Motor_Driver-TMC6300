@@ -1,7 +1,7 @@
 SparkFun 3-Phase BLDC Motor Driver - TMC6300
 ========================================
 
-[![SparkFun 3-Phase BLDC Motor Driver - TMC6300](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_01.jpg)](https://www.sparkfun.com/products/21867)
+[![SparkFun 3-Phase BLDC Motor Driver - TMC6300](https://cdn.sparkfun.com/assets/parts/2/1/6/9/6/21867-_SparkFun_Brushless_Motor_Drive-_1.jpg)](https://www.sparkfun.com/products/21867)
 
 [*SparkFun 3-Phase BLDC Motor Driver - TMC6300 (ROB-21867)*](https://www.sparkfun.com/products/21867)
 
@@ -28,7 +28,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_Three_Phase_Motor_Driver-TMC6300/)** - Hookup guide for the USB-C Host Shield hosted by GitHub pages.
+* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_Three_Phase_Motor_Driver-TMC6300/)** - Hookup guide for the TMC6300 Motor Driver hosted by GitHub pages.
 
 *Need to download or print our hookup guide?*
 

@@ -137,7 +137,7 @@ plugins:
   - typeset
   - redirects:
       redirect_maps:
-          'index.md': 'getting_started.md'
+        'index.md': 'introduction.md'
   # Add revision date
   - git-revision-date-localized:
       enable_creation_date: true
@@ -186,6 +186,7 @@ markdown_extensions:
   - admonition
   - md_in_html
   - attr_list
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -249,5 +250,5 @@ nav:
     - Background Information: background.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
-    - Sumbit Issues: github/file_issue.md
+    - Submit Issues: github/file_issue.md
     - Contribute: github/contribute.md

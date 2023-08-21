@@ -30,6 +30,7 @@ Analog Devices + Trinamic also provides great resources for the TMC6300 motor dr
     * [Block Diagram/Pinout](https://www.trinamic.com/products/integrated-circuits/details/tmc6300-la/#block-diagram)
     * :material-file-document: [Datasheet](https://www.trinamic.com/products/integrated-circuits/details/tmc6300-la/#downloads-2)
     * :material-file-document-multiple: [Application Notes](https://www.trinamic.com/products/integrated-circuits/details/tmc6300-la/#downloads-1)
+* :material-youtube: [Trinamic: TMC6300 Product Training Module](https://youtu.be/WCvQjW1gSNY)
 * :material-head-question: [Technical Support Page](https://www.trinamic.com/support/technical-support/)
 
 

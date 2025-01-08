@@ -4,7 +4,7 @@ Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/S
 
 <!-- Technical Assistance Box -->
 !!! warning "Need Help?"
-    If you need technical assistance or more information on a product that is not working as you expected, we recommend heading on over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistanc) page for some initial troubleshooting. This **Submit Issues** page is not where users should seek assistance.
+    If you need technical assistance or more information on a product that is not working as you expected, we recommend heading on over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page for some initial troubleshooting. This **Submit Issues** page is not where users should seek assistance.
 
     <center>
     [SparkFun Technical Assistance Page](https://www.sparkfun.com/technical_assistance){ .md-button .md-button--primary }

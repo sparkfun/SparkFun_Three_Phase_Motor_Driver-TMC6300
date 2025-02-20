@@ -299,7 +299,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/3/4/6/00506-02-L.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/3/4/6/506-Feature2.jpg)
 	</figure></a>
 
 </div>
